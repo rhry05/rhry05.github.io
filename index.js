@@ -1,5 +1,5 @@
 window.onload = function () {
-    var desc = ["ㅎㅇㅋㅋ","ㄹㅇㅋㅋ","ㅋㅋ"];
+    var desc = [document.getElementById('book1_desc').innerText,"ㄹㅇㅋㅋ","ㅋㅋ"];
     var index = 0;
 
     var interval = setInterval(function() {
